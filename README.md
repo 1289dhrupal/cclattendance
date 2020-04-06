@@ -1,4 +1,4 @@
-# Attendance Management System
+# Attendance Management System ccl project
 Technologies used:  HTML5, CSS3, PHP and MySQL.
 
 
@@ -28,5 +28,3 @@ MySQL is used as database. Database design is made easy to understand.
 - teachers
 - students
 - attendance
-
-# cclattendance
