@@ -18,9 +18,9 @@ Technologies used:  HTML5, CSS3, PHP and MySQL.
 ## Database
 MySQL is used as database. Database design is made easy to understand.
 ## Importing Database
-- Download the given \*attsystem.sql file.
-- Create a database attsystem
-- Import \*attsystem.sql, if everything Okay then database will be imported.
+- Download the given \*abcd.sql file.
+- Create a database abcd
+- Import \*abcd.sql, if everything Okay then database will be imported.
 
 
 ## Tables
