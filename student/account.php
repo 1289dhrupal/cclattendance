@@ -151,7 +151,8 @@ catch(Exception $e){
        $i=0;
 
        //searching students information respected to the particular ID
-       $all_query = mysqli_query($myslqi,"select * from students where students.st_id='$sr_id'");
+       
+	   $all_query = mysqli_query($mysqli,"select * from students where students.st_id='$sr_id'");
        while ($data = mysqli_fetch_array($all_query)) {
          $i++;
        
