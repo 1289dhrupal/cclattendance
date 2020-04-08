@@ -2,7 +2,7 @@
 
 
 <?php 
-$mysqli = new mysqli("localhost", "root", "", "abcd");
+include 'connection.php';
   
 
  ?>

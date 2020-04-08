@@ -1,5 +1,5 @@
 <?php
-
+include 'connection.php';
 if(isset($_POST['login']))
 {
 	//start of try block
@@ -17,7 +17,7 @@ if(isset($_POST['login']))
 		}
 		//establishing connection with db and things
 
-		$mysqli = new mysqli("localhost", "root", "", "abcd");
+		//$mysqli = new mysqli("localhost", "root", "", "abcd");
 		//checking login info into database
 		$row=0;
 		$result=mysqli_query($mysqli,"select * from admininfo where username='$_POST[username]' and password='$_POST[password]' and type='$_POST[type]'");
