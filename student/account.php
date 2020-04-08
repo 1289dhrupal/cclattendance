@@ -10,7 +10,7 @@
   }
   ?>
 
-  <?php $mysqli = new mysqli("localhost", "root", "", "abcd");?>
+  <?php include '../connection.php';?>
   
 
 <?php 

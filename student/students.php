@@ -8,7 +8,7 @@ if($_SESSION['name']!='oasis')
   header('location: login.php');
 }
 ?>
-<?php $mysqli = new mysqli("localhost", "root", "", "abcd");?>
+<?php include '../connection.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
