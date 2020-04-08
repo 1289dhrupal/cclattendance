@@ -12,7 +12,7 @@ if($_SESSION['name']!='oasis')
 
 <?php
 
-$mysqli = new mysqli("localhost", "root", "", "abcd");
+include '../connection.php';
 
 //data insertion
   try{

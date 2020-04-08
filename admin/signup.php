@@ -14,7 +14,7 @@ if($_SESSION['name']!='oasis')
 <?php
 
 //establishing connection
-$mysqli = new mysqli("localhost", "root", "", "abcd");
+include '../connection.php';
 
   try{
 
